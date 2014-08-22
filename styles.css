@@ -26,9 +26,11 @@ body{
 
 #songInfo {
   z-index: 9999;
+  font-family: Impact, Charcoal, sans-serif;
   position: absolute;
-  left: 50%;
+  left: 35%;
   top: 40%;
+  font-size: 3em;
   color: white;
 }
 
