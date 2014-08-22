@@ -9,8 +9,9 @@ function Loader(params){
 
   this.curtain = document.createElement('div');
   this.curtain.id = 'curtain';
-  this.curtain.innerText = 'M83 - "Splendor"'
+  this.curtain.innerText = 'M83'
   document.body.appendChild(this.curtain);
+  $('#curtain').append('<div id = "songInfo">"M83 - Splendor"</div')
 }
 
 Loader.prototype = {
@@ -29,7 +30,6 @@ Loader.prototype = {
   liftCurtain: function(){
     var self = this;
     this._onStart();
-    debugger
     $(this.curtain).fadeOut(800, function(){
       self.onCurtainLifted();
     })

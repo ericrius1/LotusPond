@@ -24,6 +24,14 @@ body{
   background    : #000;
 }
 
+#songInfo {
+  z-index: 9999;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  color: white;
+}
+
 #container{
   position:absolute; 
   left:0px; 
